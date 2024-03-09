@@ -1,0 +1,115 @@
+<mxfile host="Electron" modified="2024-03-08T05:42:18.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="vb1DHA8SIQS1GtN1Yt4Z" version="23.1.5" type="device">
+  <diagram name="Page-1" id="hXcos_zh1CAO9OlqEQj5">
+    <mxGraphModel dx="1518" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OSH8av7KNAGmN41pUmoP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="325" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-2" value="Reports Module" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="385" width="430" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="225" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-4" value="POST /auth/signup" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-5" value="Body - { email, password }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-6" value="Method and Route" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-7" value="Body or Query String" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-8" value="Description" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-9" value="Create a new user and sign in" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-10" value="POST /auth/signin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-11" value="Body - { email, password }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-12" value="Sign in as an existing user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-13" value="GET /reports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-14" value="QS - make, model, year, mileage, longitude, latitude" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-15" value="Get an estimate for the cars value" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-16" value="POST /reports" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-17" value="Body - { make, model, year, mileage, longitude, latitude, price }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-18" value="Report how much a vehicle sold for" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-19" value="PATCH /reports/:id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-20" value="Body - { approved }" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-21" value="Approve or reject a report submitted by a user" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=9;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-23" value="Controllers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="OSH8av7KNAGmN41pUmoP-25" target="OSH8av7KNAGmN41pUmoP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-25" value="Users Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-26" value="Reports Controller" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=9;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="680" y="300" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-28" value="Services" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="860" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-29" value="Repositories" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="OSH8av7KNAGmN41pUmoP-31" target="OSH8av7KNAGmN41pUmoP-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-31" value="Users Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="860" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-32" value="Users Repository" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-33" value="Reports Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="860" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-34" value="Reports Repository" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSH8av7KNAGmN41pUmoP-35" value="Users Module" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="285" width="430" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
