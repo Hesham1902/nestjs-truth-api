@@ -1,4 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { hash } from 'bcrypt';
 // import mongoose from 'mongoose';
 
 @Schema()
@@ -15,4 +16,11 @@ export class User {
   //   @Prop({ type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Message' }] })
   //   sentMsgs: Message[];
 }
+
 export const UserSchema = SchemaFactory.createForClass(User);
+
+//Middlewares
+UserSchema.pre('save', async function () {
+  const hashedPassword = await hash(this.password, 12);
+  this.password = hashedPassword;
+});

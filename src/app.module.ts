@@ -1,10 +1,10 @@
 import { MiddlewareConsumer, Module } from '@nestjs/common';
 import { LoggerMiddleware } from './middlewares/logger.middleware';
-import { AuthController } from './auth/auth.controller';
 import { MessagesModule } from './messages/messages.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { MongooseModule } from '@nestjs/mongoose';
+import { PassportModule } from '@nestjs/passport';
 
 @Module({
   imports: [
@@ -12,8 +12,10 @@ import { MongooseModule } from '@nestjs/mongoose';
     AuthModule,
     MessagesModule,
     UsersModule,
+    PassportModule.register({
+      session: true,
+    }),
   ],
-  controllers: [AuthController],
 })
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {
