@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { hash } from 'bcrypt';
-// import mongoose from 'mongoose';
+import mongoose from 'mongoose';
+import { Message } from './messages.schema';
 
 @Schema()
 export class User {
@@ -13,8 +14,8 @@ export class User {
   @Prop({ required: true })
   password: string;
 
-  //   @Prop({ type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Message' }] })
-  //   sentMsgs: Message[];
+  @Prop({ type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Message' }] })
+  sentMsgs: Message[];
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
